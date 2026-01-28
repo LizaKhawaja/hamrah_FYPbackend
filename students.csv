@@ -1,0 +1,451 @@
+registration_id,full_name,department,email
+CS23001,Farah Sheikh,Computer Science,FarahSheikh@gmail.com
+CS23002,Hadi Sheikh,Computer Science,HadiSheikh@gmail.com
+CS23003,Adeel Ansari,Computer Science,AdeelAnsari@gmail.com
+CS23004,Areeba Mirza,Computer Science,AreebaMirza@gmail.com
+CS23005,Daniyal Ali,Computer Science,DaniyalAli@gmail.com
+CS23006,Adeel Gill,Computer Science,AdeelGill@gmail.com
+CS23007,Rimsha Patel,Computer Science,RimshaPatel@gmail.com
+CS23008,Nimra Gill,Computer Science,NimraGill@gmail.com
+CS23009,Sana Shah,Computer Science,SanaShah@gmail.com
+CS23010,Hassan Shah,Computer Science,HassanShah@gmail.com
+CS23011,Hassan Malik,Computer Science,HassanMalik@gmail.com
+CS23012,Sufyan Raza,Computer Science,SufyanRaza@gmail.com
+CS23013,Adeel Patel,Computer Science,AdeelPatel@gmail.com
+CS23014,Hassan Malik,Computer Science,HassanMalik@gmail.com
+CS23015,Maria Gill,Computer Science,MariaGill@gmail.com
+CS23016,Shayan Ali,Computer Science,ShayanAli@gmail.com
+CS23017,Sana Malik,Computer Science,SanaMalik@gmail.com
+CS23018,Sufyan Ali,Computer Science,SufyanAli@gmail.com
+CS23019,Usman Malik,Computer Science,UsmanMalik@gmail.com
+CS23020,Hassan Nawaz,Computer Science,HassanNawaz@gmail.com
+CS23021,Zohaib Mirza,Computer Science,ZohaibMirza@gmail.com
+CS23022,Rimsha Khan,Computer Science,RimshaKhan@gmail.com
+CS23023,Nimra Ali,Computer Science,NimraAli@gmail.com
+CS23024,Ahmed Raza,Computer Science,AhmedRaza@gmail.com
+CS23025,Hadi Raza,Computer Science,HadiRaza@gmail.com
+CS23026,Zohaib Nawaz,Computer Science,ZohaibNawaz@gmail.com
+ME23027,Hira Ali,mechanical engineering,HiraAli@gmail.com
+ME23028,Ayesha Malik,mechanical engineering,AyeshaMalik@gmail.com
+ME23029,Bilal Mirza,mechanical engineering,BilalMirza@gmail.com
+ME23030,Farah Ansari,mechanical engineering,FarahAnsari@gmail.com
+ME23031,Maria Khan,mechanical engineering,MariaKhan@gmail.com
+ME23032,Hadi Gill,mechanical engineering,HadiGill@gmail.com
+ME23033,Zohaib Sheikh,mechanical engineering,ZohaibSheikh@gmail.com
+ME23034,Nimra Patel,mechanical engineering,NimraPatel@gmail.com
+ME23035,Adeel Patel,mechanical engineering,AdeelPatel@gmail.com
+ME23036,Hadi Raza,mechanical engineering,HadiRaza@gmail.com
+ME23037,Farah Ali,mechanical engineering,FarahAli@gmail.com
+ME23038,Daniyal Ansari,mechanical engineering,DaniyalAnsari@gmail.com
+ME23039,Usman Khan,mechanical engineering,UsmanKhan@gmail.com
+ME23040,Laiba Ansari,mechanical engineering,LaibaAnsari@gmail.com
+ME23041,Hassan Sheikh,mechanical engineering,HassanSheikh@gmail.com
+ME23042,Rimsha Nawaz,mechanical engineering,RimshaNawaz@gmail.com
+ME23043,Nimra Khan,mechanical engineering,NimraKhan@gmail.com
+ME23044,Sana Ansari,mechanical engineering,SanaAnsari@gmail.com
+ME23045,Adeel Raza,mechanical engineering,AdeelRaza@gmail.com
+ME23046,Ayesha Patel,mechanical engineering,AyeshaPatel@gmail.com
+ME23047,Zohaib Ali,mechanical engineering,ZohaibAli@gmail.com
+ME23048,Hassan Malik,mechanical engineering,HassanMalik@gmail.com
+ME23049,Nimra Ansari,mechanical engineering,NimraAnsari@gmail.com
+ME23050,Maria Shah,mechanical engineering,MariaShah@gmail.com
+ME23051,Sufyan Malik,mechanical engineering,SufyanMalik@gmail.com
+ME23052,Hira Ansari,mechanical engineering,HiraAnsari@gmail.com
+ME23053,Hira Raza,mechanical engineering,HiraRaza@gmail.com
+ME23054,Shayan Ansari,mechanical engineering,ShayanAnsari@gmail.com
+ME23055,Farah Patel,mechanical engineering,FarahPatel@gmail.com
+ME23056,Rimsha Ali,mechanical engineering,RimshaAli@gmail.com
+ME23057,Usman Sheikh,mechanical engineering,UsmanSheikh@gmail.com
+ME23058,Usman Mirza,mechanical engineering,UsmanMirza@gmail.com
+ME23059,Sana Raza,mechanical engineering,SanaRaza@gmail.com
+ME23060,Areeba Nawaz,mechanical engineering,AreebaNawaz@gmail.com
+ME23061,Sana Ali,mechanical engineering,SanaAli@gmail.com
+ME23062,Shayan Gill,mechanical engineering,ShayanGill@gmail.com
+EE23063,Mehwish Raza,electrical engineering,MehwishRaza@gmail.com
+EE23064,Sufyan Mirza,electrical engineering,SufyanMirza@gmail.com
+EE23065,Mehwish Gill,electrical engineering,MehwishGill@gmail.com
+EE23066,Usman Ali,electrical engineering,UsmanAli@gmail.com
+EE23067,Areeba Patel,electrical engineering,AreebaPatel@gmail.com
+EE23068,Adeel Nawaz,electrical engineering,AdeelNawaz@gmail.com
+EE23069,Ayesha Khan,electrical engineering,AyeshaKhan@gmail.com
+EE23070,Daniyal Khan,electrical engineering,DaniyalKhan@gmail.com
+EE23071,Hassan Ali,electrical engineering,HassanAli@gmail.com
+EE23072,Mehwish Raza,electrical engineering,MehwishRaza@gmail.com
+EE23073,Shayan Mirza,electrical engineering,ShayanMirza@gmail.com
+EE23074,Usman Shah,electrical engineering,UsmanShah@gmail.com
+EE23075,Areeba Raza,electrical engineering,AreebaRaza@gmail.com
+EE23076,Ahmed Khan,electrical engineering,AhmedKhan@gmail.com
+EE23077,Nimra Mirza,electrical engineering,NimraMirza@gmail.com
+EE23078,Sana Raza,electrical engineering,SanaRaza@gmail.com
+EE23079,Shayan Patel,electrical engineering,ShayanPatel@gmail.com
+EE23080,Adeel Ali,electrical engineering,AdeelAli@gmail.com
+EE23081,Zohaib Shah,electrical engineering,ZohaibShah@gmail.com
+EE23082,Sana Nawaz,electrical engineering,SanaNawaz@gmail.com
+EE23083,Ahmed Nawaz,electrical engineering,AhmedNawaz@gmail.com
+EE23084,Bilal Nawaz,electrical engineering,BilalNawaz@gmail.com
+EE23085,Nimra Sheikh,electrical engineering,NimraSheikh@gmail.com
+EE23086,Sufyan Khan,electrical engineering,SufyanKhan@gmail.com
+EE23087,Sana Ansari,electrical engineering,SanaAnsari@gmail.com
+EE23088,Nimra Khan,electrical engineering,NimraKhan@gmail.com
+EE23089,Nimra Ansari,electrical engineering,NimraAnsari@gmail.com
+EE23090,Adeel Raza,electrical engineering,AdeelRaza@gmail.com
+EE23091,Laiba Raza,electrical engineering,LaibaRaza@gmail.com
+EE23092,Ayesha Khan,electrical engineering,AyeshaKhan@gmail.com
+EE23093,Usman Nawaz,electrical engineering,UsmanNawaz@gmail.com
+EE23094,Farah Gill,electrical engineering,FarahGill@gmail.com
+EE23095,Farah Nawaz,electrical engineering,FarahNawaz@gmail.com
+EE23096,Sufyan Raza,electrical engineering,SufyanRaza@gmail.com
+EE23097,Hadi Mirza,electrical engineering,HadiMirza@gmail.com
+EE23098,Maria Khan,electrical engineering,MariaKhan@gmail.com
+EE23099,Usman Sheikh,electrical engineering,UsmanSheikh@gmail.com
+EE23100,Hadi Shah,electrical engineering,HadiShah@gmail.com
+EE23101,Daniyal Ali,electrical engineering,DaniyalAli@gmail.com
+EE23102,Mehwish Gill,electrical engineering,MehwishGill@gmail.com
+EE23103,Ahmed Shah,electrical engineering,AhmedShah@gmail.com
+EE23104,Nimra Malik,electrical engineering,NimraMalik@gmail.com
+EE23105,Sana Ansari,electrical engineering,SanaAnsari@gmail.com
+EE23106,Laiba Mirza,electrical engineering,LaibaMirza@gmail.com
+EE23107,Maria Patel,electrical engineering,MariaPatel@gmail.com
+EE23108,Hassan Khan,electrical engineering,HassanKhan@gmail.com
+EE23109,Hassan Ali,electrical engineering,HassanAli@gmail.com
+AF23110,Hassan Shah,accounting and finance,HassanShah@gmail.com
+AF23111,Sufyan Sheikh,accounting and finance,SufyanSheikh@gmail.com
+AF23112,Sufyan Khan,accounting and finance,SufyanKhan@gmail.com
+AF23113,Rimsha Mirza,accounting and finance,RimshaMirza@gmail.com
+AF23114,Rimsha Mirza,accounting and finance,RimshaMirza@gmail.com
+AF23115,Nimra Ansari,accounting and finance,NimraAnsari@gmail.com
+AF23116,Ahmed Sheikh,accounting and finance,AhmedSheikh@gmail.com
+AF23117,Bilal Gill,accounting and finance,BilalGill@gmail.com
+AF23118,Adeel Ansari,accounting and finance,AdeelAnsari@gmail.com
+AF23119,Usman Raza,accounting and finance,UsmanRaza@gmail.com
+AF23120,Rimsha Shah,accounting and finance,RimshaShah@gmail.com
+AF23121,Hassan Gill,accounting and finance,HassanGill@gmail.com
+AF23122,Rimsha Mirza,accounting and finance,RimshaMirza@gmail.com
+AF23123,Maria Khan,accounting and finance,MariaKhan@gmail.com
+AF23124,Sufyan Raza,accounting and finance,SufyanRaza@gmail.com
+AF23125,Daniyal Gill,accounting and finance,DaniyalGill@gmail.com
+AF23126,Daniyal Shah,accounting and finance,DaniyalShah@gmail.com
+AF23127,Ayesha Raza,accounting and finance,AyeshaRaza@gmail.com
+AF23128,Hadi Ali,accounting and finance,HadiAli@gmail.com
+AF23129,Bilal Sheikh,accounting and finance,BilalSheikh@gmail.com
+AF23130,Rimsha Patel,accounting and finance,RimshaPatel@gmail.com
+AF23131,Adeel Gill,accounting and finance,AdeelGill@gmail.com
+AF23132,Zohaib Nawaz,accounting and finance,ZohaibNawaz@gmail.com
+AF23133,Mehwish Malik,accounting and finance,MehwishMalik@gmail.com
+AF23134,Nimra Khan,accounting and finance,NimraKhan@gmail.com
+AF23135,Mehwish Ali,accounting and finance,MehwishAli@gmail.com
+AF23136,Ayesha Gill,accounting and finance,AyeshaGill@gmail.com
+AF23137,Adeel Sheikh,accounting and finance,AdeelSheikh@gmail.com
+AF23138,Ayesha Khan,accounting and finance,AyeshaKhan@gmail.com
+AF23139,Ayesha Patel,accounting and finance,AyeshaPatel@gmail.com
+AF23140,Nimra Malik,accounting and finance,NimraMalik@gmail.com
+AF23141,Maria Gill,accounting and finance,MariaGill@gmail.com
+AF23142,Ayesha Patel,accounting and finance,AyeshaPatel@gmail.com
+AF23143,Zohaib Khan,accounting and finance,ZohaibKhan@gmail.com
+AF23144,Hadi Shah,accounting and finance,HadiShah@gmail.com
+AF23145,Usman Gill,accounting and finance,UsmanGill@gmail.com
+AF23146,Hadi Shah,accounting and finance,HadiShah@gmail.com
+AF23147,Ayesha Nawaz,accounting and finance,AyeshaNawaz@gmail.com
+AF23148,Hadi Patel,accounting and finance,HadiPatel@gmail.com
+AF23149,Areeba Mirza,accounting and finance,AreebaMirza@gmail.com
+AF23150,Bilal Sheikh,accounting and finance,BilalSheikh@gmail.com
+AF23151,Ahmed Shah,accounting and finance,AhmedShah@gmail.com
+AF23152,Laiba Nawaz,accounting and finance,LaibaNawaz@gmail.com
+AF23153,Usman Ansari,accounting and finance,UsmanAnsari@gmail.com
+AF23154,Hadi Sheikh,accounting and finance,HadiSheikh@gmail.com
+AF23155,Shayan Malik,accounting and finance,ShayanMalik@gmail.com
+AF23156,Hadi Raza,accounting and finance,HadiRaza@gmail.com
+AF23157,Sufyan Sheikh,accounting and finance,SufyanSheikh@gmail.com
+AF23158,Areeba Ali,accounting and finance,AreebaAli@gmail.com
+AF23159,Daniyal Nawaz,accounting and finance,DaniyalNawaz@gmail.com
+AF23160,Shayan Sheikh,accounting and finance,ShayanSheikh@gmail.com
+AF23161,Nimra Gill,accounting and finance,NimraGill@gmail.com
+AF23162,Ahmed Nawaz,accounting and finance,AhmedNawaz@gmail.com
+AF23163,Mehwish Sheikh,accounting and finance,MehwishSheikh@gmail.com
+AF23164,Mehwish Shah,accounting and finance,MehwishShah@gmail.com
+AF23165,Ayesha Shah,accounting and finance,AyeshaShah@gmail.com
+AF23166,Sana Mirza,accounting and finance,SanaMirza@gmail.com
+AF23167,Laiba Ansari,accounting and finance,LaibaAnsari@gmail.com
+AF23168,Sana Patel,accounting and finance,SanaPatel@gmail.com
+AF23169,Hadi Shah,accounting and finance,HadiShah@gmail.com
+AF23170,Hira Ansari,accounting and finance,HiraAnsari@gmail.com
+AF23171,Nimra Patel,accounting and finance,NimraPatel@gmail.com
+AF23172,Sana Ali,accounting and finance,SanaAli@gmail.com
+AF23173,Ayesha Patel,accounting and finance,AyeshaPatel@gmail.com
+AF23174,Daniyal Nawaz,accounting and finance,DaniyalNawaz@gmail.com
+AF23175,Sana Patel,accounting and finance,SanaPatel@gmail.com
+AF23176,Areeba Sheikh,accounting and finance,AreebaSheikh@gmail.com
+AF23177,Zohaib Gill,accounting and finance,ZohaibGill@gmail.com
+AF23178,Sufyan Shah,accounting and finance,SufyanShah@gmail.com
+AF23179,Nimra Ansari,accounting and finance,NimraAnsari@gmail.com
+AF23180,Farah Malik,accounting and finance,FarahMalik@gmail.com
+AF23181,Nimra Nawaz,accounting and finance,NimraNawaz@gmail.com
+AF23182,Rimsha Sheikh,accounting and finance,RimshaSheikh@gmail.com
+AF23183,Areeba Gill,accounting and finance,AreebaGill@gmail.com
+AF23184,Bilal Shah,accounting and finance,BilalShah@gmail.com
+AF23185,Maria Gill,accounting and finance,MariaGill@gmail.com
+AF23186,Farah Gill,accounting and finance,FarahGill@gmail.com
+AF23187,Usman Raza,accounting and finance,UsmanRaza@gmail.com
+AF23188,Sana Patel,accounting and finance,SanaPatel@gmail.com
+AF23189,Bilal Ali,accounting and finance,BilalAli@gmail.com
+AF23190,Usman Ali,accounting and finance,UsmanAli@gmail.com
+AF23191,Hira Sheikh,accounting and finance,HiraSheikh@gmail.com
+AF23192,Sufyan Patel,accounting and finance,SufyanPatel@gmail.com
+AF23193,Sufyan Gill,accounting and finance,SufyanGill@gmail.com
+AF23194,Usman Raza,accounting and finance,UsmanRaza@gmail.com
+AF23195,Sana Raza,accounting and finance,SanaRaza@gmail.com
+AF23196,Ahmed Shah,accounting and finance,AhmedShah@gmail.com
+AF23197,Zohaib Malik,accounting and finance,ZohaibMalik@gmail.com
+AF23198,Zohaib Raza,accounting and finance,ZohaibRaza@gmail.com
+AF23199,Zohaib Mirza,accounting and finance,ZohaibMirza@gmail.com
+AF23200,Rimsha Ali,accounting and finance,RimshaAli@gmail.com
+DS23001,Mehwish Patel,Data Science,MehwishPatel@gmail.com
+DS23002,Sufyan Nawaz,Data Science,SufyanNawaz@gmail.com
+DS23003,Rimsha Raza,Data Science,RimshaRaza@gmail.com
+DS23004,Sufyan Malik,Data Science,SufyanMalik@gmail.com
+DS23005,Adeel Nawaz,Data Science,AdeelNawaz@gmail.com
+DS23006,Laiba Gill,Data Science,LaibaGill@gmail.com
+DS23007,Farah Malik,Data Science,FarahMalik@gmail.com
+DS23008,Adeel Ali,Data Science,AdeelAli@gmail.com
+DS23009,Hira Mirza,Data Science,HiraMirza@gmail.com
+DS23010,Usman Shah,Data Science,UsmanShah@gmail.com
+DS23011,Maria Malik,Data Science,MariaMalik@gmail.com
+DS23012,Bilal Raza,Data Science,BilalRaza@gmail.com
+DS23013,Sufyan Nawaz,Data Science,SufyanNawaz@gmail.com
+DS23014,Ahmed Gill,Data Science,AhmedGill@gmail.com
+DS23015,Hassan Raza,Data Science,HassanRaza@gmail.com
+DS23016,Usman Khan,Data Science,UsmanKhan@gmail.com
+DS23017,Areeba Sheikh,Data Science,AreebaSheikh@gmail.com
+DS23018,Zohaib Mirza,Data Science,ZohaibMirza@gmail.com
+DS23019,Usman Mirza,Data Science,UsmanMirza@gmail.com
+DS23020,Usman Malik,Data Science,UsmanMalik@gmail.com
+DS23021,Sufyan Gill,Data Science,SufyanGill@gmail.com
+DS23022,Farah Patel,Data Science,FarahPatel@gmail.com
+DS23023,Ayesha Ansari,Data Science,AyeshaAnsari@gmail.com
+DS23024,Rimsha Malik,Data Science,RimshaMalik@gmail.com
+DS23025,Shayan Sheikh,Data Science,ShayanSheikh@gmail.com
+DS23026,Zohaib Shah,Data Science,ZohaibShah@gmail.com
+DS23027,Hassan Shah,Data Science,HassanShah@gmail.com
+DS23028,Nimra Gill,Data Science,NimraGill@gmail.com
+DS23029,Sana Raza,Data Science,SanaRaza@gmail.com
+DS23030,Hira Shah,Data Science,HiraShah@gmail.com
+DS23031,Hadi Ansari,Data Science,HadiAnsari@gmail.com
+DS23032,Farah Ali,Data Science,FarahAli@gmail.com
+DS23033,Laiba Gill,Data Science,LaibaGill@gmail.com
+DS23034,Usman Gill,Data Science,UsmanGill@gmail.com
+DS23035,Sufyan Shah,Data Science,SufyanShah@gmail.com
+DS23036,Farah Sheikh,Data Science,FarahSheikh@gmail.com
+DS23037,Hadi Shah,Data Science,HadiShah@gmail.com
+DS23038,Areeba Gill,Data Science,AreebaGill@gmail.com
+DS23039,Maria Nawaz,Data Science,MariaNawaz@gmail.com
+DS23040,Nimra Ansari,Data Science,NimraAnsari@gmail.com
+DS23041,Adeel Patel,Data Science,AdeelPatel@gmail.com
+DS23042,Hassan Patel,Data Science,HassanPatel@gmail.com
+DS23043,Hassan Raza,Data Science,HassanRaza@gmail.com
+DS23044,Daniyal Mirza,Data Science,DaniyalMirza@gmail.com
+DS23045,Areeba Gill,Data Science,AreebaGill@gmail.com
+DS23046,Sana Nawaz,Data Science,SanaNawaz@gmail.com
+DS23047,Zohaib Malik,Data Science,ZohaibMalik@gmail.com
+DS23048,Maria Ali,Data Science,MariaAli@gmail.com
+DS23049,Nimra Patel,Data Science,NimraPatel@gmail.com
+DS23050,Sana Khan,Data Science,SanaKhan@gmail.com
+DS23051,Daniyal Patel,Data Science,DaniyalPatel@gmail.com
+DS23052,Maria Malik,Data Science,MariaMalik@gmail.com
+DS23053,Laiba Gill,Data Science,LaibaGill@gmail.com
+DS23054,Adeel Ali,Data Science,AdeelAli@gmail.com
+DS23055,Shayan Mirza,Data Science,ShayanMirza@gmail.com
+DS23056,Nimra Sheikh,Data Science,NimraSheikh@gmail.com
+DS23057,Ahmed Nawaz,Data Science,AhmedNawaz@gmail.com
+Psy23058,Adeel Shah,psychology,AdeelShah@gmail.com
+Psy23059,Daniyal Malik,psychology,DaniyalMalik@gmail.com
+Psy23060,Bilal Ansari,psychology,BilalAnsari@gmail.com
+Psy23061,Hassan Gill,psychology,HassanGill@gmail.com
+Psy23062,Daniyal Patel,psychology,DaniyalPatel@gmail.com
+Psy23063,Usman Malik,psychology,UsmanMalik@gmail.com
+Psy23064,Nimra Malik,psychology,NimraMalik@gmail.com
+Psy23065,Sana Ali,psychology,SanaAli@gmail.com
+Psy23066,Areeba Raza,psychology,AreebaRaza@gmail.com
+Psy23067,Laiba Raza,psychology,LaibaRaza@gmail.com
+Psy23068,Usman Khan,psychology,UsmanKhan@gmail.com
+Psy23069,Maria Sheikh,psychology,MariaSheikh@gmail.com
+Psy23070,Zohaib Gill,psychology,ZohaibGill@gmail.com
+Psy23071,Mehwish Khan,psychology,MehwishKhan@gmail.com
+Psy23072,Bilal Malik,psychology,BilalMalik@gmail.com
+Psy23073,Sufyan Gill,psychology,SufyanGill@gmail.com
+Psy23074,Hassan Sheikh,psychology,HassanSheikh@gmail.com
+Psy23075,Hassan Nawaz,psychology,HassanNawaz@gmail.com
+Psy23076,Shayan Sheikh,psychology,ShayanSheikh@gmail.com
+Psy23077,Farah Sheikh,psychology,FarahSheikh@gmail.com
+Psy23078,Laiba Patel,psychology,LaibaPatel@gmail.com
+Psy23079,Ahmed Gill,psychology,AhmedGill@gmail.com
+Psy23080,Maria Ali,psychology,MariaAli@gmail.com
+Psy23081,Daniyal Gill,psychology,DaniyalGill@gmail.com
+Psy23082,Mehwish Shah,psychology,MehwishShah@gmail.com
+Psy23083,Hassan Ali,psychology,HassanAli@gmail.com
+Psy23084,Adeel Raza,psychology,AdeelRaza@gmail.com
+Psy23085,Farah Ansari,psychology,FarahAnsari@gmail.com
+Psy23086,Ahmed Khan,psychology,AhmedKhan@gmail.com
+Psy23087,Nimra Ali,psychology,NimraAli@gmail.com
+Psy23088,Usman Sheikh,psychology,UsmanSheikh@gmail.com
+Psy23089,Hassan Patel,psychology,HassanPatel@gmail.com
+Psy23090,Adeel Malik,psychology,AdeelMalik@gmail.com
+Psy23091,Rimsha Malik,psychology,RimshaMalik@gmail.com
+Psy23092,Nimra Sheikh,psychology,NimraSheikh@gmail.com
+Psy23093,Sufyan Sheikh,psychology,SufyanSheikh@gmail.com
+Psy23094,Nimra Ali,psychology,NimraAli@gmail.com
+Psy23095,Sufyan Sheikh,psychology,SufyanSheikh@gmail.com
+Psy23096,Ayesha Malik,psychology,AyeshaMalik@gmail.com
+Psy23097,Maria Nawaz,psychology,MariaNawaz@gmail.com
+Psy23098,Sufyan Gill,psychology,SufyanGill@gmail.com
+Psy23099,Laiba Malik,psychology,LaibaMalik@gmail.com
+Psy23100,Zohaib Nawaz,psychology,ZohaibNawaz@gmail.com
+SE23001,Adeel Sheikh,Software Engineering,AdeelSheikh@gmail.com
+SE23002,Maria Patel,Software Engineering,MariaPatel@gmail.com
+SE23003,Nimra Patel,Software Engineering,NimraPatel@gmail.com
+SE23004,Nimra Gill,Software Engineering,NimraGill@gmail.com
+SE23005,Ayesha Malik,Software Engineering,AyeshaMalik@gmail.com
+SE23006,Zohaib Ansari,Software Engineering,ZohaibAnsari@gmail.com
+SE23007,Sufyan Patel,Software Engineering,SufyanPatel@gmail.com
+SE23008,Hira Ali,Software Engineering,HiraAli@gmail.com
+SE23009,Mehwish Mirza,Software Engineering,MehwishMirza@gmail.com
+SE23010,Rimsha Khan,Software Engineering,RimshaKhan@gmail.com
+SE23011,Zohaib Sheikh,Software Engineering,ZohaibSheikh@gmail.com
+SE23012,Maria Raza,Software Engineering,MariaRaza@gmail.com
+SE23013,Hadi Khan,Software Engineering,HadiKhan@gmail.com
+SE23014,Hadi Malik,Software Engineering,HadiMalik@gmail.com
+SE23015,Hadi Patel,Software Engineering,HadiPatel@gmail.com
+SE23016,Usman Mirza,Software Engineering,UsmanMirza@gmail.com
+SE23017,Zohaib Nawaz,Software Engineering,ZohaibNawaz@gmail.com
+SE23018,Hadi Ansari,Software Engineering,HadiAnsari@gmail.com
+SE23019,Ayesha Gill,Software Engineering,AyeshaGill@gmail.com
+SE23020,Sana Malik,Software Engineering,SanaMalik@gmail.com
+SE23021,Usman Ansari,Software Engineering,UsmanAnsari@gmail.com
+SE23022,Hadi Mirza,Software Engineering,HadiMirza@gmail.com
+SE23023,Ahmed Ali,Software Engineering,AhmedAli@gmail.com
+SE23024,Shayan Khan,Software Engineering,ShayanKhan@gmail.com
+SE23025,Mehwish Malik,Software Engineering,MehwishMalik@gmail.com
+SE23026,Ahmed Gill,Software Engineering,AhmedGill@gmail.com
+SE23027,Laiba Sheikh,Software Engineering,LaibaSheikh@gmail.com
+SE23028,Shayan Malik,Software Engineering,ShayanMalik@gmail.com
+SE23029,Hassan Shah,Software Engineering,HassanShah@gmail.com
+SE23030,Zohaib Patel,Software Engineering,ZohaibPatel@gmail.com
+SE23031,Hadi Shah,Software Engineering,HadiShah@gmail.com
+SE23032,Hadi Ansari,Software Engineering,HadiAnsari@gmail.com
+SE23033,Mehwish Gill,Software Engineering,MehwishGill@gmail.com
+SE23034,Ayesha Mirza,Software Engineering,AyeshaMirza@gmail.com
+SE23035,Ayesha Raza,Software Engineering,AyeshaRaza@gmail.com
+SE23036,Hadi Raza,Software Engineering,HadiRaza@gmail.com
+SE23037,Usman Nawaz,Software Engineering,UsmanNawaz@gmail.com
+SE23038,Hira Raza,Software Engineering,HiraRaza@gmail.com
+SE23039,Daniyal Mirza,Software Engineering,DaniyalMirza@gmail.com
+SE23040,Bilal Gill,Software Engineering,BilalGill@gmail.com
+SE23041,Shayan Nawaz,Software Engineering,ShayanNawaz@gmail.com
+SE23042,Farah Sheikh,Software Engineering,FarahSheikh@gmail.com
+SE23043,Zohaib Sheikh,Software Engineering,ZohaibSheikh@gmail.com
+SE23044,Usman Sheikh,Software Engineering,UsmanSheikh@gmail.com
+SE23045,Sufyan Nawaz,Software Engineering,SufyanNawaz@gmail.com
+SE23046,Adeel Ansari,Software Engineering,AdeelAnsari@gmail.com
+SE23047,Maria Mirza,Software Engineering,MariaMirza@gmail.com
+SE23048,Ahmed Nawaz,Software Engineering,AhmedNawaz@gmail.com
+SE23049,Hassan Khan,Software Engineering,HassanKhan@gmail.com
+SE23050,Sana Shah,Software Engineering,SanaShah@gmail.com
+IT23001,Shayan Ali,Information Technology,ShayanAli@gmail.com
+IT23002,Rimsha Nawaz,Information Technology,RimshaNawaz@gmail.com
+IT23003,Adeel Shah,Information Technology,AdeelShah@gmail.com
+IT23004,Laiba Mirza,Information Technology,LaibaMirza@gmail.com
+IT23005,Shayan Malik,Information Technology,ShayanMalik@gmail.com
+IT23006,Daniyal Ansari,Information Technology,DaniyalAnsari@gmail.com
+IT23007,Daniyal Malik,Information Technology,DaniyalMalik@gmail.com
+IT23008,Mehwish Ali,Information Technology,MehwishAli@gmail.com
+IT23009,Rimsha Ansari,Information Technology,RimshaAnsari@gmail.com
+IT23010,Sufyan Nawaz,Information Technology,SufyanNawaz@gmail.com
+IT23011,Daniyal Sheikh,Information Technology,DaniyalSheikh@gmail.com
+IT23012,Hassan Ansari,Information Technology,HassanAnsari@gmail.com
+IT23013,Mehwish Shah,Information Technology,MehwishShah@gmail.com
+IT23014,Laiba Sheikh,Information Technology,LaibaSheikh@gmail.com
+IT23015,Nimra Malik,Information Technology,NimraMalik@gmail.com
+IT23016,Ahmed Mirza,Information Technology,AhmedMirza@gmail.com
+IT23017,Bilal Shah,Information Technology,BilalShah@gmail.com
+IT23018,Maria Sheikh,Information Technology,MariaSheikh@gmail.com
+IT23019,Usman Shah,Information Technology,UsmanShah@gmail.com
+IT23020,Maria Ansari,Information Technology,MariaAnsari@gmail.com
+IT23021,Mehwish Khan,Information Technology,MehwishKhan@gmail.com
+IT23022,Mehwish Khan,Information Technology,MehwishKhan@gmail.com
+IT23023,Sana Nawaz,Information Technology,SanaNawaz@gmail.com
+IT23024,Rimsha Gill,Information Technology,RimshaGill@gmail.com
+IT23025,Hassan Sheikh,Information Technology,HassanSheikh@gmail.com
+IT23026,Usman Mirza,Information Technology,UsmanMirza@gmail.com
+IT23027,Maria Khan,Information Technology,MariaKhan@gmail.com
+IT23028,Mehwish Khan,Information Technology,MehwishKhan@gmail.com
+IT23029,Daniyal Mirza,Information Technology,DaniyalMirza@gmail.com
+IT23030,Usman Patel,Information Technology,UsmanPatel@gmail.com
+IT23031,Hira Ansari,Information Technology,HiraAnsari@gmail.com
+IT23032,Ayesha Malik,Information Technology,AyeshaMalik@gmail.com
+IT23033,Sufyan Mirza,Information Technology,SufyanMirza@gmail.com
+IT23034,Areeba Mirza,Information Technology,AreebaMirza@gmail.com
+IT23035,Laiba Sheikh,Information Technology,LaibaSheikh@gmail.com
+IT23036,Hadi Ansari,Information Technology,HadiAnsari@gmail.com
+IT23037,Zohaib Gill,Information Technology,ZohaibGill@gmail.com
+IT23038,Zohaib Ali,Information Technology,ZohaibAli@gmail.com
+IT23039,Hira Mirza,Information Technology,HiraMirza@gmail.com
+IT23040,Hadi Ansari,Information Technology,HadiAnsari@gmail.com
+IT23041,Maria Sheikh,Information Technology,MariaSheikh@gmail.com
+IT23042,Mehwish Raza,Information Technology,MehwishRaza@gmail.com
+IT23043,Rimsha Ansari,Information Technology,RimshaAnsari@gmail.com
+IT23044,Maria Gill,Information Technology,MariaGill@gmail.com
+IT23045,Shayan Ansari,Information Technology,ShayanAnsari@gmail.com
+IT23046,Hadi Khan,Information Technology,HadiKhan@gmail.com
+IT23047,Bilal Nawaz,Information Technology,BilalNawaz@gmail.com
+IT23048,Hira Khan,Information Technology,HiraKhan@gmail.com
+IT23049,Adeel Ansari,Information Technology,AdeelAnsari@gmail.com
+IT23050,Ayesha Gill,Information Technology,AyeshaGill@gmail.com
+CY23001,Bilal Patel,Cyber Security,BilalPatel@gmail.com
+CY23002,Hadi Sheikh,Cyber Security,HadiSheikh@gmail.com
+CY23003,Shayan Ali,Cyber Security,ShayanAli@gmail.com
+CY23004,Farah Sheikh,Cyber Security,FarahSheikh@gmail.com
+CY23005,Mehwish Ansari,Cyber Security,MehwishAnsari@gmail.com
+CY23006,Hassan Malik,Cyber Security,HassanMalik@gmail.com
+CY23007,Zohaib Malik,Cyber Security,ZohaibMalik@gmail.com
+CY23008,Areeba Patel,Cyber Security,AreebaPatel@gmail.com
+CY23009,Zohaib Ansari,Cyber Security,ZohaibAnsari@gmail.com
+CY23010,Daniyal Nawaz,Cyber Security,DaniyalNawaz@gmail.com
+CY23011,Rimsha Patel,Cyber Security,RimshaPatel@gmail.com
+CY23012,Ayesha Khan,Cyber Security,AyeshaKhan@gmail.com
+CY23013,Hadi Sheikh,Cyber Security,HadiSheikh@gmail.com
+CY23014,Ayesha Mirza,Cyber Security,AyeshaMirza@gmail.com
+CY23015,Rimsha Patel,Cyber Security,RimshaPatel@gmail.com
+CY23016,Daniyal Ansari,Cyber Security,DaniyalAnsari@gmail.com
+CY23017,Farah Khan,Cyber Security,FarahKhan@gmail.com
+CY23018,Bilal Mirza,Cyber Security,BilalMirza@gmail.com
+CY23019,Laiba Ali,Cyber Security,LaibaAli@gmail.com
+CY23020,Shayan Shah,Cyber Security,ShayanShah@gmail.com
+CY23021,Laiba Shah,Cyber Security,LaibaShah@gmail.com
+CY23022,Maria Gill,Cyber Security,MariaGill@gmail.com
+CY23023,Hira Ali,Cyber Security,HiraAli@gmail.com
+CY23024,Rimsha Nawaz,Cyber Security,RimshaNawaz@gmail.com
+CY23025,Hassan Gill,Cyber Security,HassanGill@gmail.com
+CY23026,Hadi Nawaz,Cyber Security,HadiNawaz@gmail.com
+BBA23059,Sana Gill,BBA,SanaGill@gmail.com
+BBA23060,Shayan Nawaz,BBA,ShayanNawaz@gmail.com
+BBA23061,Maria Raza,BBA,MariaRaza@gmail.com
+BBA23062,Rimsha Patel,BBA,RimshaPatel@gmail.com
+BBA23063,Laiba Sheikh,BBA,LaibaSheikh@gmail.com
+BBA23064,Shayan Ansari,BBA,ShayanAnsari@gmail.com
+BBA23065,Laiba Ansari,BBA,LaibaAnsari@gmail.com
+BBA23066,Hassan Patel,BBA,HassanPatel@gmail.com
+BBA23067,Hadi Ansari,BBA,HadiAnsari@gmail.com
+BBA23068,Ayesha Patel,BBA,AyeshaPatel@gmail.com
+BBA23069,Usman Ansari,BBA,UsmanAnsari@gmail.com
+BBA23070,Nimra Sheikh,BBA,NimraSheikh@gmail.com
+BBA23071,Rimsha Sheikh,BBA,RimshaSheikh@gmail.com
+BBA23072,Hassan Malik,BBA,HassanMalik@gmail.com
+BBA23073,Rimsha Nawaz,BBA,RimshaNawaz@gmail.com
+BBA23074,Mehwish Khan,BBA,MehwishKhan@gmail.com
+BBA23075,Farah Ansari,BBA,FarahAnsari@gmail.com
+BBA23076,Laiba Ali,BBA,LaibaAli@gmail.com
+BBA23077,Laiba Mirza,BBA,LaibaMirza@gmail.com
+BBA23078,Hassan Patel,BBA,HassanPatel@gmail.com
+BBA23079,Hadi Patel,BBA,HadiPatel@gmail.com
+BBA23080,Mehwish Malik,BBA,MehwishMalik@gmail.com
+BBA23081,Ahmed Patel,BBA,AhmedPatel@gmail.com
+BBA23082,Maria Mirza,BBA,MariaMirza@gmail.com
