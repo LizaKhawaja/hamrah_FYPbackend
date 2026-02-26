@@ -1,11 +1,22 @@
-from pydantic import BaseModel, EmailStr, field_validator 
-from enum import Enum 
-from typing import Optional, List 
+from pydantic import BaseModel, EmailStr, field_validator
+from enum import Enum
+from typing import Optional, List, Literal
 from datetime import datetime
 
-class TransportMode(str, Enum):
-    car = "car"
-    bike = "bike"
+TransportMode = Literal["car", "bike"]
+
+class RideStatus(str, Enum):
+    active = "active"
+    full = "full"
+    cancelled = "cancelled"
+    completed = "completed"
+
+class RideRequestStatus(str, Enum):
+    pending = "pending"
+    accepted = "accepted"
+    rejected = "rejected"
+    cancelled_by_passenger = "cancelled_by_passenger"
+    cancelled_by_driver = "cancelled_by_driver"
 
 class UserBase(BaseModel):
     first_name: str
@@ -15,16 +26,41 @@ class UserBase(BaseModel):
     email: EmailStr
     gender: str
 
+
+class VehicleCreate(BaseModel):
+    vehicle_number: str
+    mode_of_transport: TransportMode
+
+
+class DriverCreate(UserBase):
+    password: str
+    license_image_url: str
+    cnic_image_url: str
+    live_image_url: str
+    vehicles: List[VehicleCreate]
+
+
 class PassengerCreate(UserBase):
     password: str
 
-# class VehicleCreate(BaseModel):
-#     mode_of_transport: TransportMode
-#     vehicle_number: str
 
-# class DriverCreate(UserBase):
-#     license_image_url: str # Store Firebase URL
-#     vehicles: List[VehicleCreate] #can add more then 2 vehicles
+# what frontend needs to show correct screen
+class MeOut(BaseModel):
+    id: int
+    first_name: str
+    last_name: str
+    dsu_reg_id: str
+    phone_number: str
+    email: EmailStr
+    gender: str
+    is_passenger: bool
+    is_driver: bool
+    active_mode: str
+    driver_profile_complete: bool
+
+class SwitchMode(BaseModel):
+    mode: Literal["passenger", "driver"]
+
 
 class UserOut(BaseModel):
     id: int
@@ -33,27 +69,41 @@ class UserOut(BaseModel):
     dsu_reg_id: str
     phone_number: str
     role: str
+    is_passenger: bool
+    is_driver: bool
 
     class Config:
         from_attributes = True
+
 
 class Token(BaseModel):
     access_token: str
     token_type: str
 
-class TokenData(BaseModel):
-    id: int  # User ID
-    role: Optional[str] = None  # Optional role info
 
-class OTPVerify(BaseModel): #Postman se hum email + otp bhejenge.
+class TokenData(BaseModel):
+    id: int
+
+
+class OTPVerify(BaseModel):
     email: EmailStr
-    otp_code: str    
+    otp_code: str
+
 
 class ResendOTP(BaseModel):
     email: EmailStr
 
+
+class ForgotPasswordRequest(BaseModel):
+    email: EmailStr
+
+
+class ResetPasswordRequest(BaseModel):
+    token: str
+    new_password: str
+
 class RideCreate(BaseModel):
-    vehicle_id: int                     # Vehicle chosen by driver
+    vehicle_id: int
     from_address: str
     from_lat: float
     from_lng: float
@@ -61,19 +111,11 @@ class RideCreate(BaseModel):
     to_lat: float
     to_lng: float
     departure_time: datetime
-    seats_available: int = 1            # Set by driver; backend adjusts for bike
-    ac: Optional[bool] = None           # Only car relevant; backend sets None for bike
+    seats_available: Optional[int] = None     #frontend can omit for bike
+    ac: Optional[bool] = None  #required for car, not allowed for bike
     gender_filter: str = "any"
-    fare_per_seat: float = 0.0          # Both bike & car; driver decides
+    fare_per_seat: float = 0.0
 
-    # Seats validation: at least 1
-    @field_validator("seats_available")
-    def check_seats(cls, v):
-        if v < 1:
-            raise ValueError("seats_available must be at least 1")
-        return v
-
-    # Fare validation
     @field_validator("fare_per_seat")
     def validate_fare(cls, v):
         if v < 0:
@@ -89,25 +131,22 @@ class RideOut(BaseModel):
     departure_time: datetime
     seats_available: int
     ac: Optional[bool] = None
-    gender_filter: str = None
+    gender_filter: Optional[str] = None
     fare_per_seat: float
-    mode_of_transport: str
-
-    class Config:
-        from_attributes = True  
-
-
-class RideRequestCreate(BaseModel):
-    ride_id: int
-
-
-class RideRequestOut(BaseModel):
-    id: int
-    ride_id: int
-    status: str
-    distance_from_route: float
+    mode_of_transport: Optional[str] = None
+    status: Optional[str] = None  # or RideStatus
 
     class Config:
         from_attributes = True
 
+class RideRequestCreate(BaseModel):
+    ride_id: int
 
+class RideRequestOut(BaseModel):
+    id: int
+    ride_id: int
+    status: str  # or RideRequestStatus
+    distance_from_route: float
+
+    class Config:
+        from_attributes = True

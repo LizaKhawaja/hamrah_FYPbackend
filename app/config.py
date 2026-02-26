@@ -11,7 +11,14 @@ class Settings(BaseSettings):
     algorithm: str
     access_token_expire_minutes: int
 
+    # Email settings (can be accessed as email_host, email_user, etc.)
+    email_host: str
+    email_port: int
+    email_user: str
+    email_pass: str
+
     class Config:
         env_file = ".env"
+        case_sensitive = False
 
 settings = Settings()

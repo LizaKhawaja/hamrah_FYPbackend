@@ -2,7 +2,8 @@ import hashlib
 import secrets
 import random 
 import math
-from datetime import datetime, timedelta
+
+from datetime import datetime, timezone, timedelta
 
 def hash_pass(password: str) -> str:
 
@@ -20,13 +21,20 @@ def verify(plain_password: str, hash_password: str) -> bool:
     except Exception:
         return False
 
-def generate_otp():
-    # 6 digit OTP generate hota hai
+# OTP SYSTEM
+
+def generate_otp() -> str:
     return str(random.randint(100000, 999999))
 
-def otp_expiry_time():
-    # OTP 10 minutes ke liye valid
-    return datetime.utcnow() + timedelta(minutes=10)
+
+def otp_expiry_time(minutes: int = 3) -> datetime:
+    # Generate OTP expiry time (Default: 3 minutes)
+    return datetime.now(timezone.utc) + timedelta(minutes=minutes)
+
+
+# forget pass
+def generate_reset_token():
+    return secrets.token_urlsafe(32)
     
 def haversine(lat1, lon1, lat2, lon2):
     R = 6371
@@ -39,6 +47,7 @@ def within_time_window(ride_time: datetime, target_time: datetime, margin_minute
     lower = target_time - timedelta(minutes=margin_minutes)
     upper = target_time + timedelta(minutes=margin_minutes)
     return lower <= ride_time <= upper
+
 
     
 
