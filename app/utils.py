@@ -27,9 +27,10 @@ def generate_otp() -> str:
     return str(random.randint(100000, 999999))
 
 
+
 def otp_expiry_time(minutes: int = 3) -> datetime:
-    # Generate OTP expiry time (Default: 3 minutes)
-    return datetime.now(timezone.utc) + timedelta(minutes=minutes)
+    # Generate OTP expiry time (default: 3 minutes from now)
+    return datetime.utcnow() + timedelta(minutes=minutes)
 
 
 # forget pass
