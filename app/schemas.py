@@ -26,11 +26,11 @@ class UserBase(BaseModel):
     email: EmailStr
     gender: str
 
-
 class VehicleCreate(BaseModel):
     vehicle_number: str
     mode_of_transport: TransportMode
-
+    # vehicle_model: str
+    # vehicle_colour: str
 
 class DriverCreate(UserBase):
     password: str
@@ -43,6 +43,12 @@ class DriverCreate(UserBase):
 class PassengerCreate(UserBase):
     password: str
 
+class DriverEnable(BaseModel):
+    dsu_reg_id: str
+    license_image_url: str
+    cnic_image_url: str
+    live_image_url: str
+    vehicles: List[VehicleCreate]
 
 # what frontend needs to show correct screen
 class MeOut(BaseModel):

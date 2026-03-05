@@ -17,3 +17,4 @@ app.include_router(ride_request.router)
 
 
 
+# uvicorn app.main:app --host 0.0.0.0 --port 8000
