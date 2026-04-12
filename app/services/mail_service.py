@@ -3,8 +3,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from app.config import settings
 
-
-
 # BASE EMAIL SENDER FUNCTION (PRIVATE)
 
 def _send_email(to_email: str, subject: str, body: str):

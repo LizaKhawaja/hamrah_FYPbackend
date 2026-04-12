@@ -100,6 +100,7 @@ class Ride(Base):
     def mode_of_transport(self):
      return self.vehicle.mode_of_transport
 
+
 class RideRequest(Base):
     __tablename__ = "ride_requests"
 
@@ -114,3 +115,11 @@ class RideRequest(Base):
 
     ride = relationship("Ride")
     passenger = relationship("User")
+
+
+class DeviceToken(Base):
+    __tablename__ = "device_tokens"
+
+    id = Column(Integer, primary_key=True)
+    user_id = Column(Integer)
+    token = Column(Text)

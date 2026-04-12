@@ -12,3 +12,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 uploads/
+
+# Firebase secrets
+*.json
+hamrah-notification-2a315-firebase-adminsdk-fbsvc-0f04c3f2ea.json

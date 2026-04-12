@@ -156,3 +156,8 @@ class RideRequestOut(BaseModel):
 
     class Config:
         from_attributes = True
+
+
+class TokenRequest(BaseModel):   #notification system
+    user_id: int
+    token: str
