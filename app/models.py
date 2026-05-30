@@ -59,8 +59,8 @@ class Vehicle(Base):
 
     mode_of_transport = Column(String(10), nullable=False)  # car / bike
     vehicle_number = Column(String(20), nullable=False, unique=True)
-    # vehicle_colour = Column(String(20), nullable=False)
-    # vehicle_model = Column(String(20), nullable=False)
+    vehicle_colour = Column(String(20), nullable=False)
+    vehicle_model = Column(String(20), nullable=False)
 
     created_at = Column(TIMESTAMP(timezone=True), nullable=False, server_default=text("now()"))
 
@@ -108,6 +108,9 @@ class RideRequest(Base):
     ride_id = Column(Integer, ForeignKey("rides.id"), nullable=False)
     passenger_id = Column(Integer, ForeignKey("users.id"), nullable=False)
 
+    pickup_lat = Column(Float, nullable=True)
+    pickup_lng = Column(Float, nullable=True)
+
     status = Column(String, default="pending")  # pending/accepted/rejected/cancelled...
     distance_from_route = Column(Float, default=0.0)
 
@@ -123,3 +126,17 @@ class DeviceToken(Base):
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer)
     token = Column(Text)
+
+
+class RideLocation(Base):
+    __tablename__ = "ride_locations"
+
+    id = Column(Integer, primary_key=True, index=True)
+    ride_id = Column(Integer, ForeignKey("rides.id"), nullable=False)
+    driver_id = Column(Integer, ForeignKey("users.id"), nullable=False)
+    latitude = Column(Float, nullable=False)
+    longitude = Column(Float, nullable=False)
+    timestamp = Column(TIMESTAMP(timezone=True), server_default=text("now()"))
+
+    ride = relationship("Ride")
+    driver = relationship("User")

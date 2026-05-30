@@ -3,11 +3,11 @@ from sqlalchemy.orm import Session
 from datetime import datetime
 import os, uuid, shutil
 import requests
-
 from .. import models, schemas, utils, oauth2
 from ..database import get_db
 from ..services import mail_service
-from app.face_verification.service import extract_face, compare_faces, check_duplicate_face
+# from app.face_verification.service import extract_face, compare_faces, check_duplicate_face
+from app.face_verification.service import extract_face, compare_faces
 
 router = APIRouter(prefix="/users", tags=["Users"])
 
@@ -36,7 +36,7 @@ def get_me(current_user: models.User = Depends(oauth2.get_current_user)):
     )
 
 
-# SWITCH MODE
+# Switch mode logic
 @router.patch("/switch-mode")
 def switch_mode(
     payload: schemas.SwitchMode,
@@ -56,8 +56,8 @@ def switch_mode(
     return {"message": f"Switched to {payload.mode} mode"}
 
 
-# PASSENGER SIGNUP
-@router.post("/passenger")
+# Passanger signup
+@router.post("/passenger", response_model=schemas.UserOut)
 def create_passenger(user: schemas.PassengerCreate, db: Session = Depends(get_db)):
 
     student = db.query(models.DSUStudent).filter_by(dsu_reg_id=user.dsu_reg_id).first()
@@ -99,7 +99,7 @@ def create_passenger(user: schemas.PassengerCreate, db: Session = Depends(get_db
     return new_user
 
 
-# DOWNLOAD IMAGE
+# Download image
 def download_image(url: str, save_path: str):
 
     if not url.startswith(("http://", "https://")):
@@ -118,7 +118,7 @@ def download_image(url: str, save_path: str):
         raise HTTPException(status_code=400, detail=f"Image download error: {str(e)}")
 
 
-# DRIVER SIGNUP (Direct new driver)
+# Driver signup
 @router.post("/driver")
 def create_driver(driver: schemas.DriverCreate, db: Session = Depends(get_db)):
 
@@ -172,9 +172,9 @@ def create_driver(driver: schemas.DriverCreate, db: Session = Depends(get_db)):
         shutil.rmtree("temp_faces", ignore_errors=True)
         raise HTTPException(status_code=400, detail=f"Face verification failed (distance={distance:.3f})")
 
-    if check_duplicate_face(id_face, db, exclude_user_id=None):
-        shutil.rmtree("temp_faces", ignore_errors=True)
-        raise HTTPException(status_code=400, detail="This face is already registered with another account.")
+    # if check_duplicate_face(id_face, db, exclude_user_id=None):
+    #     shutil.rmtree("temp_faces", ignore_errors=True)
+    #     raise HTTPException(status_code=400, detail="This face is already registered with another account.")
 
     shutil.rmtree("temp_faces", ignore_errors=True)
 
@@ -210,7 +210,9 @@ def create_driver(driver: schemas.DriverCreate, db: Session = Depends(get_db)):
         db.add(models.Vehicle(
             user_id=user_obj.id,
             vehicle_number=v.vehicle_number,
-            mode_of_transport=v.mode_of_transport
+            mode_of_transport=v.mode_of_transport,
+            vehicle_model=v.vehicle_model,
+            vehicle_colour=v.vehicle_colour      
         ))
 
     db.commit()
@@ -224,10 +226,9 @@ def create_driver(driver: schemas.DriverCreate, db: Session = Depends(get_db)):
     }
 
 
-# DRIVER ENABLE (Passenger -> Driver upgrade)
+# Driver enable (Passenger -> Driver upgrade)
 @router.post("/enable_driver")
 def enable_driver(payload: schemas.DriverEnable, db: Session = Depends(get_db)):
-    print("NEW DRIVER ENABLE ENDPOINT HIT ✅")
     student = db.query(models.DSUStudent).filter_by(dsu_reg_id=payload.dsu_reg_id).first()
     if not student:
         raise HTTPException(status_code=400, detail="Invalid DSU Registration ID")
@@ -274,9 +275,9 @@ def enable_driver(payload: schemas.DriverEnable, db: Session = Depends(get_db)):
         shutil.rmtree("temp_faces", ignore_errors=True)
         raise HTTPException(status_code=400, detail=f"Face verification failed (distance={distance:.3f})")
 
-    if check_duplicate_face(id_face, db, exclude_user_id=existing_user.id):
-        shutil.rmtree("temp_faces", ignore_errors=True)
-        raise HTTPException(status_code=400, detail="This face is already registered with another account.")
+    # if check_duplicate_face(id_face, db, exclude_user_id=existing_user.id):
+    #     shutil.rmtree("temp_faces", ignore_errors=True)
+    #     raise HTTPException(status_code=400, detail="This face is already registered with another account.")
 
     shutil.rmtree("temp_faces", ignore_errors=True)
 
@@ -299,11 +300,17 @@ def enable_driver(payload: schemas.DriverEnable, db: Session = Depends(get_db)):
     db.flush()
 
     for v in payload.vehicles:
-        db.add(models.Vehicle(
-            user_id=existing_user.id,
-            vehicle_number=v.vehicle_number,
-            mode_of_transport=v.mode_of_transport
-        ))
+     if not v.vehicle_colour or not v.vehicle_model:
+        raise HTTPException(status_code=400, detail=f"Missing vehicle data: {v.vehicle_number}")
+
+    for v in payload.vehicles:
+     db.add(models.Vehicle(
+        user_id=existing_user.id,
+        vehicle_number=v.vehicle_number,
+        mode_of_transport=v.mode_of_transport,
+        vehicle_model=v.vehicle_model,
+        vehicle_colour=v.vehicle_colour
+    ))
 
     db.commit()
     db.refresh(existing_user)

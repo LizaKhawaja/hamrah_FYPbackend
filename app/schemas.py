@@ -29,8 +29,8 @@ class UserBase(BaseModel):
 class VehicleCreate(BaseModel):
     vehicle_number: str
     mode_of_transport: TransportMode
-    # vehicle_model: str
-    # vehicle_colour: str
+    vehicle_model: str
+    vehicle_colour: str
 
 class DriverCreate(UserBase):
     password: str
@@ -147,11 +147,13 @@ class RideOut(BaseModel):
 
 class RideRequestCreate(BaseModel):
     ride_id: int
+    pickup_lat: Optional[float] = None
+    pickup_lng: Optional[float] = None
 
 class RideRequestOut(BaseModel):
     id: int
     ride_id: int
-    status: str  # or RideRequestStatus
+    status: RideRequestStatus
     distance_from_route: float
 
     class Config:
@@ -161,3 +163,20 @@ class RideRequestOut(BaseModel):
 class TokenRequest(BaseModel):   #notification system
     user_id: int
     token: str
+
+class LocationUpdate(BaseModel):
+    ride_id: int
+    latitude: float
+    longitude: float
+    driver_id: int
+
+class LocationResponse(BaseModel):
+    ride_id: int
+    driver_id: int
+    latitude: float
+    longitude: float
+    eta_seconds: Optional[int] = None
+    eta_minutes: Optional[int] = None
+
+    class Config:
+        from_attributes = True

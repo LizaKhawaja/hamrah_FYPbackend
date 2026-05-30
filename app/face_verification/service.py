@@ -230,7 +230,7 @@ def compare_faces(face1_path: str, face2_path: str):
     )
 
     distance = result["distance"]
-    is_match = distance < 0.60
+    is_match = distance < 0.72
 
     return is_match, distance
 
